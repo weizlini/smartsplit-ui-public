@@ -1,0 +1,8 @@
+.avatar-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar-modal .controls {
+  width: 350px;
+}

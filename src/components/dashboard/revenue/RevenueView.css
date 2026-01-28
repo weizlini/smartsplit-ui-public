@@ -1,0 +1,84 @@
+.payout-action {
+  text-align: right;
+}
+.split-payout {
+  font-family: "IBMPlexSans-SemiBold";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.payout-details {
+  font-family: "IBMPlexSans-SemiBold";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #2da84f;
+  cursor: pointer;
+}
+.total-payouts-sm {
+  font-size: 20px;
+}
+
+.payout-top {
+  background: #faf8f9;
+  height: 104px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  margin-right: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 30px;
+}
+.payout-finished {
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  background: #dbecff;
+  color: #0757b2;
+  display: inline-block;
+  padding: 2px 5px;
+}
+.payout-coming {
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #a55108;
+  background: #ffe5a1;
+  display: inline-block;
+  padding: 2px 5px;
+}
+.withdraw-info {
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 30px;
+}
+.top-payout-action {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+strong {
+  font-family: IBMPlexSans-SemiBold;
+}

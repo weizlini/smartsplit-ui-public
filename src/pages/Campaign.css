@@ -1,0 +1,356 @@
+.campaign-title {
+  font-family: IBMPlexSans;
+}
+.campaign-top-box {
+  min-height: 144px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10px 10px;
+  margin-top: 20px;
+}
+.campaign-btn {
+  width: 100%;
+  height: auto;
+  min-height: 40px;
+}
+.campaign-video {
+  margin-top: 20px;
+}
+.campaign-dates {
+  font-family: IBMPlexSans-SemiBold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.campaign-objectives {
+  font-family: IBMPlexSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #687a8b;
+}
+.campaign-nums {
+  /* Heading/2 */
+
+  font-family: IBMPlexSans-SemiBold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+  /* Content/Primary */
+
+  color: #203548;
+}
+.camp-progressbar {
+  position: relative;
+  background: #f5f2f3;
+  /* Content/Stroke */
+  height: 8px;
+  border: 1px solid #dcdfe1;
+  border-radius: 8px;
+  width: 241.5px;
+}
+.camp-progress {
+  position: absolute;
+  height: 8px;
+  left: 0px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background: #2da84f;
+}
+.camp-progress-text {
+  width: 241.5px;
+  display: flex;
+  justify-content: stretch;
+}
+.camp-amnt-raised {
+  font-family: IBMPlexSans-SemiBold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #2da84f;
+  flex-grow: 0;
+}
+.camp-label,
+.camp-percent {
+  font-family: IBMPlexSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  flex-grow: 0;
+  /* Content/Secondary */
+
+  color: #687a8b;
+}
+.camp-percent {
+  font-family: IBMPlexSans-Bold;
+  text-align: right;
+  flex-grow: 1;
+}
+.campaign-info-box {
+  height: 94px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.camp-X {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center center;
+  transform: translate(-59%, -79%);
+  font-family: IBMPlexSans-SemiBold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 30px;
+  color: #2da84f;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+}
+.campaign-tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+.camp-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #dcdfe1;
+  height: 56px;
+  flex-grow: 1;
+  padding-right: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.camp-tab.active {
+  border-bottom: 2px solid #2da84f;
+}
+.camp-tab a {
+  font-family: IBMPlexSans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #687a8b;
+  text-decoration: none;
+  text-align: center;
+}
+.camp-tab a:hover,
+.camp-tab.active a {
+  color: #000;
+}
+.campaign-section {
+  margin-top: 35px;
+  min-height: 100vh;
+  /* width: 710px;*/
+}
+.campaign-section h2 {
+  font-family: IBMPlexSansLight;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  color: #203548;
+  margin-bottom: 22px;
+}
+.campaign-section h4 {
+  font-family: IBMPlexSans-SemiBold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 22px;
+}
+.campaign-section p {
+  line-height: 24px;
+  width: 710px;
+}
+
+.camp-figure {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  height: 134px;
+  margin-bottom: 50px;
+}
+.camp-figure .campaign-info-box {
+  flex-grow: 0;
+  margin-right: 5px;
+  height: 116px;
+  width: 140px;
+}
+.camp-figure .campaign-info-box .camp-label {
+  text-align: center;
+}
+.camp-diagram {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.img-and-text-left {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  flex-direction: row;
+  max-width: 700px;
+}
+.img-and-text-left img {
+  flex-grow: 0;
+  margin-right: 15px;
+}
+.img-and-text-left p {
+  line-height: 24px;
+  width: 100%;
+  flex-grow: 1;
+}
+.camp-investors {
+  width: 100%;
+}
+.camp-investors th {
+  font-family: IBMPlexSans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: #687a8b;
+}
+.camp-investors th span {
+  display: inline-block;
+  border-bottom: 1px solid #dcdfe1;
+  padding: 8px 16px;
+}
+.camp-investors th span.long {
+  width: 90%;
+}
+.camp-investors th img {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.camp-investors td {
+  font-family: IBMPlexSans-SemiBold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #203548;
+  padding: 15px 16px 0;
+}
+.camp-investors td.anon {
+  color: #8da0b3;
+}
+.camp-investors td.right,
+.camp-investors th.right {
+  text-align: right;
+}
+.paging {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8da0b2;
+}
+.paging a {
+  color: #8da0b2;
+  text-decoration: none;
+}
+.paging a.current {
+  color: #2da84f;
+  text-decoration: underline;
+}
+
+.camp-vid {
+  width: 476px;
+  height: 266px;
+}
+
+@media (min-width: 576px) {
+  .camp-vid {
+    width: 516px;
+    height: 289px;
+  }
+  .campaign-section p {
+    width: 90%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .camp-vid {
+    width: 696px;
+    height: 390px;
+  }
+}
+@media (min-width: 992px) {
+  .camp-summary {
+    padding-left: 40px;
+    margin-top: 10px;
+  }
+  .camp-vid {
+    width: 630px;
+    height: 353px;
+  }
+}
+@media (min-width: 1050px) {
+  .camp-summary {
+    padding-left: 40px;
+    margin-top: 10px;
+  }
+  .camp-vid {
+    width: 630px;
+    height: 353px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .camp-summary {
+    padding-left: 40px;
+    margin-top: 10px;
+  }
+  .camp-vid {
+    width: 750px;
+    height: 420px;
+  }
+}
+@media (min-width: 1400px) {
+  .camp-summary {
+    padding-left: 40px;
+    margin-top: 10px;
+  }
+  .camp-vid {
+    width: 850px;
+    height: 476px;
+  }
+}
+
+.sticky {
+  position: fixed !important;
+  top: 0;
+}
+.equipe-placeholder {
+  max-width: 90%;
+  height: auto;
+}
+.campaign-page {
+  padding-bottom: 30vh;
+}

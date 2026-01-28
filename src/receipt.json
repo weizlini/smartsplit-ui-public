@@ -1,0 +1,55 @@
+{
+  "receipt": [
+    {
+      "payout_before_fees": 310,
+      "transaction_method": "Interac",
+      "transaction_fee": "-0.75",
+      "smartsplit_fee_percent": 0.01,
+      "smartsplit_fee": "-3.10",
+      "payout_after_fees": "306.15",
+      "currency_code": "CAD",
+      "withdraw-date": "2023-11-20 11:16:00",
+      "receipt_id": 21,
+      "zum_transaction_id": "2cda86f1-c748-4252-9ddd-93504e65d77f",
+
+      "status": 3,
+      "items": [
+        {
+          "investment": "500",
+          "shares": 5,
+          "share_value": 100,
+          "total_shares": 1000,
+          "total_percentage": 10,
+          "campaign_title": "Financer mon nouvel album",
+          "campaign_url": "daniel-boucher-financer-mon-nouvel-album",
+          "project_tile": "mon nouvel Album",
+          "artist_name": "Daniel Boucher",
+          "revenue_id": 16,
+          "revenueAmount": 50000,
+          "from": "socan",
+          "subtotal": 250,
+          "payout": 250,
+          "revenue_date": "2023-11-19 11:00:00"
+        },
+        {
+          "investment": "500",
+          "shares": 5,
+          "share_value": 100,
+          "total_shares": 1000,
+          "total_percentage": 10,
+          "absolute_percentage": "0.0005",
+          "campaign_title": "Financer mon nouvel album",
+          "campaign_url": "daniel-boucher-financer-mon-nouvel-album",
+          "project_tile": "mon nouvel Album",
+          "artist_name": "Daniel Boucher",
+          "revenue_id": 15,
+          "revenue_amount": 12000,
+          "total_revenue_amount": 120000,
+          "from": "socan",
+          "payout": 60,
+          "revenue_date": "2023-10-15 11:00:00"
+        }
+      ]
+    }
+  ]
+}

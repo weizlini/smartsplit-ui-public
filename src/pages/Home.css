@@ -1,0 +1,91 @@
+.home-card {
+  box-sizing: border-box;
+  height: 478px;
+  left: 161px;
+  top: 212px;
+
+  /* Content/Primary-Reversed */
+
+  background: #ffffff;
+  /* Content/Primary */
+
+  border: 0.5px solid #203548;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home-container {
+  padding-top: 60px;
+}
+.home-container p {
+  font-family: "IBMPlexSans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #687a8b;
+}
+.home-container h1 {
+  font-family: "IBMPlexSans", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #203548;
+}
+.home-container h1 strong {
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #203548;
+}
+
+.home-container h1 em {
+  font-family: "Poppins-Bold-Italic", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #2da84f;
+}
+.home-button {
+  text-align: right !important;
+  margin: 60px 0;
+}
+.home-container h2 {
+  font-family: "IBMPlexSans-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 20px;
+  text-align: left;
+  color: #203548;
+}
+.home-container h3 {
+  font-family: "IBMPlexSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #203548;
+}
+.home-container h2.home-example {
+  font-family: "IBMPlexSans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #203548;
+  margin-bottom: 40px;
+}
+.home-container img {
+  width: 100%;
+  height: auto;
+}

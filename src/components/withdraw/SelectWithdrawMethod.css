@@ -1,0 +1,16 @@
+.method-secondary-content:empty {
+  padding-top: 20px;
+  border-top: none;
+}
+.method-secondary-content {
+}
+.field-group {
+  margin-bottom: 20px;
+}
+.icon_sm {
+  color: #2da84f;
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}

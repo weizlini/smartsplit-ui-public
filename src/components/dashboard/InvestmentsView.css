@@ -1,0 +1,122 @@
+.investment {
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+  margin-right: 20px;
+  margin-left: 0px;
+  align-items: center;
+}
+.investments-view {
+  margin-top: 60px;
+}
+.investment p {
+  margin: 0;
+  padding: 0;
+}
+.invest-summary,
+.campaign-summary,
+.invest-action {
+  display: flex;
+  align-items: center;
+}
+.invest-action {
+  justify-content: flex-end;
+}
+.action-icon {
+  padding-left: 10px;
+}
+.invest-summary img {
+  margin-right: 10px;
+}
+.invest-progressbar {
+  width: 252px;
+  height: 4px;
+  display: block;
+  background: #faf8f9;
+  border-radius: 8px;
+  position: relative;
+}
+.invest-progress {
+  position: absolute;
+  height: 4px;
+  display: block;
+  background: #2da84f;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.invest-progress.complete {
+  border-radius: 8px;
+}
+
+.investment .campaign-summary h5 {
+  font-family: "IBMPlexSans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #203548;
+  padding-right: 10px;
+}
+.investment .campaign-summary p {
+  font-family: "IBMPlexSans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #687a8b;
+}
+
+.investment .invest-summary h4 {
+  font-family: "IBMPlexSans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #203548;
+  margin: 0;
+}
+.investment .invest-summary span,
+.investment .invest-summary p {
+  //styleName: Interface/Small-400;
+  font-family: "IBMPlexSans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 0;
+}
+.investment .invest-summary span {
+  padding: 0 10px;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-col-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.investment .btn {
+  border: 1px solid #ccc;
+  color: #2da84f;
+  border-radius: 2px;
+}
+.investment .btn:hover {
+  border: 1px solid #2da84f;
+  color: #ffff;
+  background: #2da84f;
+  border-radius: 2px;
+}

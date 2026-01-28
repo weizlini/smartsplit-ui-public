@@ -1,0 +1,17 @@
+.withdraw-ui-container {
+  margin-top: 0px;
+  border-top: 1px solid #ccc;
+}
+.withdraw-ui {
+  margin-top: 40px;
+  min-height: 250px;
+}
+.withdraw-ui label {
+  font-family: IBMPlexSans-SemiBold;
+}
+.withdraw-ui label span {
+  font-family: IBMPlexSans;
+}
+.withdraw-content {
+  padding-top: 45px;
+}
